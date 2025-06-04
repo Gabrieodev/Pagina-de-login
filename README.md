@@ -1,59 +1,72 @@
-# LoginPage
+# 🔐 Login Page - Full Stack Application
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+Este projeto é uma aplicação de **Login Page** desenvolvida com Angular, utilizando boas práticas de componentização, estilos com SCSS e integração com backend via API. O sistema permite que um usuário se registre e, posteriormente, realize login com as credenciais criadas.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Funcionalidades
 
-```bash
-ng serve
-```
+### 📋 Cadastro de Usuário
+- Permite que novos usuários se registrem com email e senha válidos.
+- Os dados são enviados para o backend via requisição HTTP POST.
+- Validações de formulário para garantir que os campos estejam preenchidos corretamente.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### 🔑 Login de Usuário
+- O login só é permitido após o registro do usuário.
+- Autenticação baseada em email e senha.
+- Feedback visual (mensagens de erro ou sucesso).
+- Armazenamento de token para controle de acesso.
+### 🎨 Interface
+- Interface responsiva, desenvolvida com HTML, SCSS e Angular.
+- Separação em componentes reutilizáveis.
+- Design moderno e funcional, com usabilidade em foco.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🧩 Tecnologias Utilizadas
 
-```bash
-ng generate component component-name
-```
+### Front-end
+- [Angular](https://angular.io/)
+- HTML5
+- SCSS (Sass)
+- TypeScript
+- JavaScript
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Backend
+A API responsável por armazenar e autenticar os dados está disponível no seguinte repositório:
 
-```bash
-ng generate --help
-```
+🔗 [Repositório do Backend](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO-BACKEND)
 
-## Building
+---
 
-To build the project run:
+## 🌐 Página Funcionando
 
-```bash
-ng build
-```
+Você pode acessar a aplicação hospedada através do link abaixo:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+🔗 [Login Page - Aplicação ao Vivo](https://seu-link-hospedado.com)
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 🖼️ Preview da Aplicação
 
-```bash
-ng test
-```
+Abaixo você pode visualizar a interface da aplicação:
 
-## Running end-to-end tests
+![Imagem da Login Page](./assets/img/preview-login-page.png)
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## 📚 O que foi aprendido
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Durante o desenvolvimento desta aplicação, aprendi e reforcei os seguintes conceitos:
 
-## Additional Resources
+- 🔧 **Criação e organização de componentes no Angular**
+- 🌐 **Integração do front-end com uma API de backend via HTTP**
+- 🧪 **Validações de formulário com Angular Reactive Forms**
+- 🛡️ **Boas práticas de autenticação e manipulação de tokens**
+- 💅 **Estilização com SCSS e estrutura modularizada**
+- 🧠 **Melhor compreensão do ciclo de vida de componentes**
+- 🚀 **Deploy da aplicação Angular e conexão com backend externo**
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este projeto foi fundamental para consolidar conhecimentos essenciais do ecossistema Angular e de aplicações web modernas.
+
+---
