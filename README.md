@@ -51,7 +51,7 @@ Você pode acessar a aplicação hospedada através do link abaixo:
 
 Abaixo você pode visualizar a interface da aplicação:
 
-![Imagem da Login Page](./assets/img/preview-login-page.png)
+![Screenshot da Login Page](public/screenshot.png)
 
 ---
 
