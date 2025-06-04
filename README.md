@@ -35,7 +35,7 @@ Este projeto é uma aplicação de **Login Page** desenvolvida com Angular, util
 ### Backend
 A API responsável por armazenar e autenticar os dados está disponível no seguinte repositório:
 
-🔗 [Repositório do Backend](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO-BACKEND)
+🔗 [Repositório do Backend](https://github.com/Gabrieodev/Pagina-de-login-backend)
 
 ---
 
