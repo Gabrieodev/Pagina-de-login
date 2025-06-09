@@ -39,14 +39,6 @@ A API responsável por armazenar e autenticar os dados está disponível no segu
 
 ---
 
-## 🌐 Página Funcionando
-
-Você pode acessar a aplicação hospedada através do link abaixo:
-
-🔗 [Login Page - Aplicação ao Vivo](https://seu-link-hospedado.com)
-
----
-
 ## 🖼️ Preview da Aplicação
 
 Abaixo você pode visualizar a interface da aplicação:
